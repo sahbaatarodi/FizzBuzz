@@ -10,9 +10,9 @@ public string FizzBuzz(int number)
     {
         answer = "buzz";
     }
-    if(number % 3 == 0 & number % 5 == 0)
+    if(number % 3 == 0 && number % 5 == 0)
     {
-        answer == "fizzbuzz";
+        answer = "fizzbuzz";
     }
     return answer;
 }
